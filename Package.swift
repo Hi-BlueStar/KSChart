@@ -22,7 +22,7 @@ let package = Package(
             name: "KSChart",
             dependencies: []),
         .testTarget(
-            name: "AnimatedMenuBarTests",
+            name: "KSKChartView.swift",
             dependencies: ["KSChart"]),
     ]
 )
