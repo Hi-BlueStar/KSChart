@@ -21,10 +21,10 @@ let package = Package(
         .target(
             name: "KSChart",
             dependencies: [],
-            path: "KSChart/Chart/KSKLineChart.swift"),
+            path: "Source/Chart/KSKLineChart.swift"),
         .testTarget(
             name: "KSChart",
             dependencies: [],
-            path: "KSChart/Chart/KSKLineChart.swift"),
+            path: "Source/Chart/KSKLineChart.swift"),
     ]
 )
