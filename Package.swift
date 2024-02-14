@@ -20,6 +20,11 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "KSChart",
-            dependencies: []),
+            dependencies: [],
+            path: "KSChart/Chart/KSKLineChart.swift"),
+        .testTarget(
+            name: "KSChart",
+            dependencies: [],
+            path: "KSChart/Chart/KSKLineChart.swift"),
     ]
 )
