@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "KSChart",
             dependencies: []),
-        .testTarget(
-            name: "KSKChartView.swift",
-            dependencies: ["KSChart"]),
     ]
 )
